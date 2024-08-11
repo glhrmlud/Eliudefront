@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+}
+/** Cabeçalho/Menu do site  **/
+header{
+    background-color: #003366;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    border: solid white;
+    border-radius: 5px;
+}
+header img{
+    height: 70px;
+    width: 70px;
+}
+.sct1{
+    height: 130px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sct2{
+    background-color: #66B2FF;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border-top: solid white;
+}
+.sct2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    position: relative;
+    transition: transform 0.4s ease-in-out;
+}
+.sct2 a:hover{
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+.sct2 a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0 ;
+    height: 2px;
+    background-color: rgb(219, 219, 219);
+    transition: width 0.4s ease-out;
+}
+.sct2 a:hover::after{
+    width: 100%;
+}
+/** Corpo-site **/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+main p{
+    text-align: center;
+    color: rgb(75, 75, 75);
+    font-size: 21px;
+}
+.sct3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 10px;
+}
+.sct3 h1{
+    font-size: 35px;
+    color: rgb(75, 75, 75)
+}
+.sct3 p{
+    width: 90%;
+}
+.sct4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sct4 img{
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+    border: #003366 solid 0px;
+}
+.sct4 div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sct4 button{
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px ;
+    border: none;
+    width: 50%;
+    height: 40px;
+    transition: opacity 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+}
+.sct4 button:hover{
+    opacity: 0.85;
+    transform: scale(1.02);
+
+}
+#texto1{
+    width: 70%;
+}
+#texto2{
+    width: 80%;
+}
+
+/* Rodapé */
+footer{
+    background-color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    margin-top: 3%;
+    border: solid white;
+    border-radius: 5px;
+}
+.sct5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 100%; 
+    gap: 100px;  
+}
+.sct5 img{
+    height: 70px;
+    width: 70px;
+    margin-left: 0.5%;
+}
+.sct5 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.sct6{
+    background-color: #66B2FF;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 3px;
+}
+.sct6 p{
+    color: white;
+    font-size: 18px;
+}
+.div1{
+    display: flex;
+    gap: 25px;
+}
+#X-Twiter, #Insta, #Face{
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    transition: background-image 0.3s ease-in-out;
+}
+#X-Twiter{
+    background-image: url(img/X-Preto.png);
+}
+#X-Twiter:hover{
+    background-image: url(img/X-Branco.png);
+}
+#Insta{
+    background-image: url(img/Insta-Preto.png)
+}
+#Insta:hover{
+    background-image: url(img/Insta-Branco.png);
+}
+#Face{
+    background-image: url(img/Face-Preto.png);
+}
+#Face:hover{
+    background-image: url(img/Face-Branco.png);
+}
