@@ -9,8 +9,6 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items:center ;
-    border: solid white;
-    border-radius: 5px;
 }
 header img{
     height: 70px;
@@ -32,7 +30,6 @@ header img{
     height: 50px;
     width: 100%;
     align-items: center;
-    border-top: solid white;
 }
 .sct2 a{
     text-decoration: none;
@@ -122,8 +119,6 @@ footer{
     justify-content: center;
     height: 170px;
     margin-top: 3%;
-    border: solid white;
-    border-radius: 5px;
 }
 .sct5{
     display: flex;
@@ -150,7 +145,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid white 3px;
 }
 .sct6 p{
     color: white;
