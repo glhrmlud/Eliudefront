@@ -175,3 +175,35 @@ footer{
 #Face:hover{
     background-image: url(img/Face-Branco.png);
 }
+
+/** Responsividade **/
+@media screen and (max-width: 768px){
+    #X-Twiter, #Insta, #Face{
+        width: 25px;
+        height: 25px;
+    }
+    /** Menu **/
+    .sct1{
+        width: 100%;
+    }
+    .sct2{
+        width: 100%;
+    }
+    /** corpo **/
+
+    /** rodapé **/
+    .sct5{
+        width: 100%;
+        gap: 15px;
+    }
+    .sct5 img{
+        display: none;
+    }
+    .sct5 p{
+        font-size: 10px;
+    }
+    .sct6{
+        width: 100%;
+    }
+ 
+}

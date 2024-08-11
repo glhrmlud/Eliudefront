@@ -75,8 +75,6 @@ main img{
     gap: 10px;
 }
 .sct3 img{
-    width: 50px;
-    height: 50px;
     margin: auto;
 }
 #img1{
@@ -195,4 +193,66 @@ footer{
 }
 #Face:hover{
     background-image: url(img/Face-Branco.png);
+}
+
+/** Responsividade **/
+@media screen and (max-width: 768px){
+    #X-Twiter, #Insta, #Face{
+        width: 25px;
+        height: 25px;
+    }
+    /** Menu **/
+    .sct1{
+        width: 100%;
+    }
+    .sct2{
+        width: 100%;
+    }
+    /** corpo **/
+    .sct3{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #img1{
+        width: 85%;
+    }
+    #img2{
+        width: 85%;
+    }
+    #img3{
+        width: 85%;
+    }
+    #img4{
+        width: 85%;
+    }
+    #img5{
+        width: 85%;
+    }
+    #img6{
+        width: 85%;
+    }
+    #img7{
+        width: 85%;
+    }
+    #img8{
+        width: 85%;
+        
+    }
+    /** rodapé **/
+    .sct5{
+        width: 100%;
+        gap: 15px;
+    }
+    .sct5 img{
+        display: none;
+    }
+    .sct5 p{
+        font-size: 10px;
+    }
+    .sct6{
+        width: 100%;
+    }
 }
