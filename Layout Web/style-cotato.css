@@ -3,7 +3,7 @@
 }
 /** Cabeçalho/Menu do site  **/
 header{
-    background-color: #003366;
+    background-color:#003366 ;
     height: 180px;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 582px;
 }
 main h1{
     text-align: center;
@@ -70,7 +71,7 @@ main h1{
 }
 main input{
     width: 300px;
-    height: 25px;
+    height: 30px;
     background-color: rgb(255, 255, 255);
     border: solid 0.8px rgb(209, 208, 208);
     border-radius: 5px;
@@ -86,9 +87,7 @@ main form{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
     gap: 20px;
-    
 }
 main button{
     position: relative;
@@ -109,8 +108,6 @@ main button:hover{
 }
 /* Rodapé */
 footer{
-    position: relative;
-    top: end;
     background-color: #003366;
     display: flex;
     flex-direction: column;
