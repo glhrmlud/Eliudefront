@@ -89,7 +89,7 @@ main form{
     flex-direction: column;
     gap: 20px;
 }
-main button{
+.enviar{
     position: relative;
     left: 67%;
     border: none;
