@@ -3,7 +3,7 @@
 }
 /** Cabeçalho/Menu do site  **/
 header{
-    background-color: black;
+    background-color: #003366;
     height: 180px;
     display: flex;
     flex-direction: column;
