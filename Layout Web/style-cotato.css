@@ -109,6 +109,8 @@ main button:hover{
 }
 /* Rodapé */
 footer{
+    position: relative;
+    top: end;
     background-color: #003366;
     display: flex;
     flex-direction: column;
