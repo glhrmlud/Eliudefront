@@ -249,6 +249,7 @@ footer{
     .sct5 img{
         width: 30px;
         height: 30px;
+        display:none;
     }
     .sct5 p{
         font-size: 10px;
