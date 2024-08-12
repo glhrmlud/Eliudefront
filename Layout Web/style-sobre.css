@@ -236,7 +236,8 @@ footer{
         gap: 15px;
     }
     .sct5 img{
-        display: none;
+        width: 30px;
+        height: 30px;
     }
     .sct5 p{
         font-size: 10px;
