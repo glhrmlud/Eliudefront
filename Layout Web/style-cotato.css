@@ -193,7 +193,9 @@ footer{
         width: 100%;
     }
     /** corpo **/
-
+    .enviar{
+        width: 20%;
+    }
     /** rodapé **/
     .sct5{
         width: 100%;
@@ -208,5 +210,4 @@ footer{
     .sct6{
         width: 100%;
     }
- 
 }
