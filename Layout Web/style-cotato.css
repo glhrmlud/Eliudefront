@@ -196,6 +196,9 @@ footer{
     .enviar{
         width: 20%;
         left:37%;
+        display: flex;
+        justify-content: center;
+        align-itens: center;
     }
     /** rodapé **/
     .sct5{
